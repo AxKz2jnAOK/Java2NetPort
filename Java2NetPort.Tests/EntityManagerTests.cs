@@ -17,26 +17,36 @@ namespace Java2NetPort.Tests
         [ClassInitialize]
         public static void TestClassInit(TestContext textContext)        
         {
+            Trace.Listeners.Add(new TextWriterTraceListener(Console.Out));
+
+            Trace.WriteLine("Executing EntityManagerTests::TestClassInit()");
+
             Database.SetInitializer(new UniversityInitializer());
 
             EJBContainer c = EJBContainer.Instance;
             c.Configuration.SetDBContextCreationFuncForEntityManager(() => new UniversityContext());
             c.Init();
 
-            using (UniversityContext context = new UniversityContext())
-            {
-                foreach (Student s in context.Students)
-                {
-                    context.Students.Remove(s);
-                }
-                context.SaveChanges();
-            }
+            //using (UniversityContext context = new UniversityContext())
+            //{
+            //    foreach (Student s in context.Students)
+            //    {
+            //        context.Students.Remove(s);
+            //    }
+            //    context.SaveChanges();
+            //}
         }
     
 
         [TestInitialize]
         public void TestInit()
         {
+            Trace.WriteLine("Executing EntityManagerTests::TestInit()");
+
+            EJBContainer c = EJBContainer.Instance;
+            c.Configuration.SetDBContextCreationFuncForEntityManager(() => new UniversityContext());
+            c.Init();
+
             using (UniversityContext context = new UniversityContext())
             {
                 Student s = new Student()
@@ -403,9 +413,6 @@ namespace Java2NetPort.Tests
         public void TestPostSharp()
         {
             Trace.Listeners.Add(new TextWriterTraceListener(Console.Out));
-
-
-            //SayHello();
         }
 
         [TestMethod]

@@ -27,14 +27,10 @@ namespace UniversityDataAccess
         public DbSet<Faculty> Faculties { get; set; }
 
         public DbSet<Log> Logs { get; set; }
-
-        //protected override void OnModelCreating(DbModelBuilder modelBuilder)        
-        //{
-        //    modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
-        //}
     }
 
     public class UniversityInitializer : System.Data.Entity.CreateDatabaseIfNotExists<UniversityContext>
+                                        //System.Data.Entity.DropCreateDatabaseAlways<UniversityContext> 
     {
         protected override void Seed(UniversityContext context)
         {    

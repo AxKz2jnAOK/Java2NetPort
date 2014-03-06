@@ -61,6 +61,8 @@
     <Compile Include="Attributes\StatelessAttribute.cs" />
     <Compile Include="Attributes\TransactionAttribute.cs" />
     <Compile Include="Attributes\TransactionAttributeType.cs" />
+    <Compile Include="CriteriaAPI\CriteriaBuilder.cs" />
+    <Compile Include="CriteriaAPI\ICriteriaBuilder.cs" />
     <Compile Include="EJBContainer.cs" />
     <Compile Include="EJBTransactionScope.cs" />
     <Compile Include="EntityManager\EntityManager.cs" />

@@ -1,0 +1,26 @@
+[v] tæsti ContainerManagedTransactions testus.
+[ ] use local db - does not need running sql server instance.
+[v] Pervadinti solution'à, jo namespace'à á "JavaPort" ið "Magistrinis"
+[v] Pridëti á source control'à
+[v] JNDI ágyvendinimas
+	[v] interface'as
+		[v] naming
+		[x] directory
+		[x]? event
+		[x]? ldap
+		[x] paþëti, kurios ið klasiø yra namespace' "spi"
+		[v] spi		
+	[v] inmemory.
+		[v] name support
+		[v] compound name support
+		[x] composite name
+		[x] hierarchinë implementacija http://docs.oracle.com/javase/jndi/tutorial/provider/basics/src/tut/HierCtx.java
+	[x] failinë sistema (directory service)
+		[x] prisideda subcontext testai
+		[x] Adding Directory Support
+	[x] Adding URL Support
+	[x] Adding Federation Support
+	
+
+
+	

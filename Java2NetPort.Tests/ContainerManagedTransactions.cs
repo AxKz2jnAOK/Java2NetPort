@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 using System.Transactions;
 using UniversityBusinessLogic.EJB.Stateless;
 using UniversityDataAccess;
+using System.Data.Entity;
 
 namespace Java2NetPort.Tests
 {
@@ -22,29 +23,39 @@ namespace Java2NetPort.Tests
         {
             Trace.Listeners.Add(new TextWriterTraceListener(Console.Out));
 
-            EJBContainer c = EJBContainer.Instance;
-            c.Configuration.SetDBContextCreationFuncForEntityManager(() => new UniversityContext());
-            c.Init();
+            Trace.WriteLine("Executing ContainerManagedTransactions::TestClassInit(..)");
 
-            using (UniversityContext context = new UniversityContext())
-            {
-                foreach (Student s in context.Students)
-                {
-                    context.Students.Remove(s);
-                }
+            Database.SetInitializer(new UniversityInitializer());
 
-                foreach (Log l in context.Logs)
-                {
-                    context.Logs.Remove(l);
-                }
+            //EJBContainer c = EJBContainer.Instance;
+            //c.Configuration.SetDBContextCreationFuncForEntityManager(() => new UniversityContext());
+            //c.Init();
 
-                context.SaveChanges();
-            }
+            //using (UniversityContext context = new UniversityContext())
+            //{
+            //    foreach (Student s in context.Students)
+            //    {
+            //        context.Students.Remove(s);
+            //    }
+
+            //    foreach (Log l in context.Logs)
+            //    {
+            //        context.Logs.Remove(l);
+            //    }
+
+            //    context.SaveChanges();
+            //}
         }
 
         [TestInitialize]
         public void TestsInit()
         {
+            Trace.WriteLine("Executing ContainerManagedTransactions::TestsInit(..)");
+            
+            EJBContainer c = EJBContainer.Instance;
+            c.Configuration.SetDBContextCreationFuncForEntityManager(() => new UniversityContext());
+            c.Init();
+
             using (UniversityContext context = new UniversityContext())
             {
                 foreach (Student s in context.Students)
@@ -108,17 +119,30 @@ namespace Java2NetPort.Tests
 
         [TestMethod]
         public void InsertNewStudentInRequestTransactionScope_ShouldExistInDbAfterMethodCall()
-        {   
-            DummyManagerForTesting m = new DummyManagerForTesting();
-            m.Required_InsertNewStudent();
+        {
+            Trace.WriteLine("Executing ContainerManagedTransactions::InsertNewStudentInRequestTransactionScope_ShouldExistInDbAfterMethodCall()");
 
-            Assert.IsNull(System.Transactions.Transaction.Current);
+            try
+            {
+                //EJBContainer c = EJBContainer.Instance;
+                //c.Configuration.SetDBContextCreationFuncForEntityManager(() => new UniversityContext());
+                //c.Init();
 
-            UniversityContext uc = new UniversityContext();
-            Assert.IsNotNull(uc.Students.SingleOrDefault(e => e.Id == 2
-                && e.FirstName == "Vardenis"
-                && e.LastName == "Pavardenis"
-                && e.BirthDay == new DateTime(1990, 01, 01)));
+                DummyManagerForTesting m = new DummyManagerForTesting();
+                m.Required_InsertNewStudent();
+
+                Assert.IsNull(System.Transactions.Transaction.Current);
+
+                UniversityContext uc = new UniversityContext();
+                Assert.IsNotNull(uc.Students.SingleOrDefault(e => e.Id == 2
+                    && e.FirstName == "Vardenis"
+                    && e.LastName == "Pavardenis"
+                    && e.BirthDay == new DateTime(1990, 01, 01)));
+            }
+            catch(Exception exc)
+            {
+                throw;
+            }
         }
 
         /// <summary>

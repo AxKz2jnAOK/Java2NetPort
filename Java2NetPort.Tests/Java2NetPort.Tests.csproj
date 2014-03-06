@@ -66,6 +66,7 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="CriteriaApi.cs" />
     <Compile Include="DummyManagerForTesting.cs" />
     <Compile Include="EntityManagerTests.cs" />
     <Compile Include="JNDI_CompoundName.cs" />
