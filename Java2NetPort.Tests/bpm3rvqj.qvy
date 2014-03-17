@@ -1,0 +1,70 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Data.Entity;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Java2NetPort.CriteriaAPI;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using UniversityDataAccess;
+
+namespace Java2NetPort.Tests
+{
+    [TestClass]
+    public class CriteriaApiTests
+    {
+        [ClassInitialize]
+        public static void TestClassInit(TestContext textContext)
+        {
+            Database.SetInitializer(new UniversityInitializer());
+        }
+
+        [TestInitialize]
+        public void TestInit()
+        {
+            EJBContainer c = EJBContainer.Instance;
+            c.Configuration.SetDBContextCreationFuncForEntityManager(() => new UniversityContext());
+            c.Init();
+        }
+
+        [TestMethod]
+        public void CreateCriteriaBuilder_Success()
+        {
+            ICriteriaBuilder cb = EJBContainer.Instance.EntityManager.GetCriteriaBuilder();
+
+            Assert.IsNotNull(cb);            
+        }
+
+
+        [TestMethod]
+        public void CreateCriteriaQuery_Success()
+        {
+            ICriteriaQuery cq = EJBContainer.Instance.EntityManager.GetCriteriaBuilder()
+                                                                    .CreateQuery();
+            Assert.IsNotNull(cq);
+        }
+
+        [TestMethod]
+        public void CreateRoot_Success()
+        {
+            IRoot r = EJBContainer.Instance.EntityManager.GetCriteriaBuilder()
+                                                            .CreateQuery()
+                                                            .From("Students");
+            Assert.IsNotNull(r);
+        }
+
+        //todo: test without from
+        //todo: test without select
+
+        [TestMethod]
+        public void SimpleSelectAllStatement_Success()
+        {
+            ICriteriaQuery cq = EJBContainer.Instance.EntityManager.GetCriteriaBuilder()
+                                                                      .CreateQuery();
+
+            cq.From("Students");
+
+            //Assert.eq cq.ToString()
+        }
+    }
+}

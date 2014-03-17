@@ -29,7 +29,7 @@ namespace UniversityDataAccess
         public DbSet<Log> Logs { get; set; }
     }
 
-    public class UniversityInitializer : System.Data.Entity.CreateDatabaseIfNotExists<UniversityContext>
+    public class UniversityInitializer : System.Data.Entity.DropCreateDatabaseIfModelChanges<UniversityContext>
                                         //System.Data.Entity.DropCreateDatabaseAlways<UniversityContext> 
     {
         protected override void Seed(UniversityContext context)

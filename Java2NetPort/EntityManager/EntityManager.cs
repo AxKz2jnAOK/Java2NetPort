@@ -6,6 +6,7 @@ using System.Data.Entity.Infrastructure;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Java2NetPort.CriteriaAPI;
 
 namespace Java2NetPort
 {
@@ -83,6 +84,11 @@ namespace Java2NetPort
             _DbContext.Set<TEntity>().Remove(entity);
         }
 
-        #endregion        
+        #endregion
+
+        public ICriteriaBuilder GetCriteriaBuilder()
+        {
+            return new CriteriaBuilder();
+        }
     }
 }

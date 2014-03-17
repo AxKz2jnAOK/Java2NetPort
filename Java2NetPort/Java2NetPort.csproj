@@ -61,8 +61,36 @@
     <Compile Include="Attributes\StatelessAttribute.cs" />
     <Compile Include="Attributes\TransactionAttribute.cs" />
     <Compile Include="Attributes\TransactionAttributeType.cs" />
+    <Compile Include="CriteriaAPI\AbstractQuery.cs" />
+    <Compile Include="CriteriaAPI\Interfaces\IAbstractQuery.cs" />
+    <Compile Include="CriteriaAPI\Interfaces\IFrom.cs" />
+    <Compile Include="CriteriaAPI\Interfaces\IOrder.cs" />
+    <Compile Include="CriteriaAPI\Interfaces\IParameterExpression.cs" />
+    <Compile Include="CriteriaAPI\Literal.cs" />
+    <Compile Include="CriteriaAPI\Order.cs" />
+    <Compile Include="CriteriaAPI\ParameterExpression.cs" />
+    <Compile Include="CriteriaAPI\UnaryOperators.cs" />
     <Compile Include="CriteriaAPI\CriteriaBuilder.cs" />
-    <Compile Include="CriteriaAPI\ICriteriaBuilder.cs" />
+    <Compile Include="CriteriaAPI\CriteriaQuery.cs" />
+    <Compile Include="CriteriaAPI\Expression.cs" />
+    <Compile Include="CriteriaAPI\Extensions.cs" />
+    <Compile Include="CriteriaAPI\Interfaces\ICriteriaBuilder.cs" />
+    <Compile Include="CriteriaAPI\Interfaces\ICriteriaQuery.cs" />
+    <Compile Include="CriteriaAPI\Interfaces\IExpression.cs" />
+    <Compile Include="CriteriaAPI\Interfaces\IJoin.cs" />
+    <Compile Include="CriteriaAPI\Interfaces\IPath.cs" />
+    <Compile Include="CriteriaAPI\Interfaces\IPredicate.cs" />
+    <Compile Include="CriteriaAPI\Interfaces\IRoot.cs" />
+    <Compile Include="CriteriaAPI\Interfaces\ISelection.cs" />
+    <Compile Include="CriteriaAPI\Join.cs" />
+    <Compile Include="CriteriaAPI\JoinType.cs" />
+    <Compile Include="CriteriaAPI\Path.cs" />
+    <Compile Include="CriteriaAPI\Predicate.cs" />
+    <Compile Include="CriteriaAPI\BinaryOperators.cs" />
+    <Compile Include="CriteriaAPI\Root.cs" />
+    <Compile Include="CriteriaAPI\Selection.cs" />
+    <Compile Include="CriteriaAPI\Subquery.cs" />
+    <Compile Include="CriteriaAPI\TernaryOperators.cs" />
     <Compile Include="EJBContainer.cs" />
     <Compile Include="EJBTransactionScope.cs" />
     <Compile Include="EntityManager\EntityManager.cs" />
@@ -99,6 +127,7 @@
     <None Include="App.config">
       <SubType>Designer</SubType>
     </None>
+    <None Include="CriteriaAPI\ClassDiagram1.cd" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>

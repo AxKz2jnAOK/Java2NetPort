@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Java2NetPort.CriteriaAPI
+namespace Java2NetPort.CriteriaAPI.Interfaces
 {
-    public interface ICriteriaBuilder
+    public interface IParameterExpression : IExpression
     {
+        string GetName();
     }
 }

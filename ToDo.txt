@@ -20,6 +20,27 @@
 		[x] Adding Directory Support
 	[x] Adding URL Support
 	[x] Adding Federation Support
+
+[v] criteria api
+	[v] kabuèiø problema
+	[x] extension methods for passing arguments as string, not as concrete classes.
+			IPredicate exp = cb.Equal(r.Get("FirstName"), new Expression("Jonas")); => IPredicate exp = cb.Equal(r.Get("FirstName"), "Jonas");
+	[v] parameter expression kûrimas per cb.Parameter(..)
+	[v] predicate expression. chain.
+
+	[v] where
+		[x] in
+	[v] Order by
+	[x] group by
+	[x] having
+	[v] join
+	[x] subquery
+		[x] exists, not exists
+		[x] in, not in
+	[x] function mapping. abs(), length(),...
+	[x] aggregate function mapping. avg(), sum(), ...
+	[x] case expression
+	
 	
 
 

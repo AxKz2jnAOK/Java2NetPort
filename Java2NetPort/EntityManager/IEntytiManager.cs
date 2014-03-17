@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Java2NetPort.CriteriaAPI;
 
 namespace Java2NetPort
 {
@@ -45,5 +46,9 @@ namespace Java2NetPort
         /// <typeparam name="TEntity"></typeparam>
         /// <param name="entity"></param>
         void Remove<TEntity>(TEntity entity) where TEntity : class;
+
+
+        ICriteriaBuilder GetCriteriaBuilder();
+
     }
 }

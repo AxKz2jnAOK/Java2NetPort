@@ -49,6 +49,15 @@ namespace Java2NetPort.Tests
 
             using (UniversityContext context = new UniversityContext())
             {
+                foreach (Student s in context.Students)
+                {
+                    context.Students.Remove(s);
+                }
+                context.SaveChanges();
+            }
+
+            using (UniversityContext context = new UniversityContext())
+            {
                 Student s = new Student()
                 {
                     Id = 1,

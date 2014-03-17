@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph DataVirtualized="True" Layout="Sugiyama" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="(@1 @2 Type=AbstractQuery)" Category="CodeSchema_Interface" Bounds="422.953069698418,411.725107493832,129.91,25" CodeSchemaProperty_IsPublic="True" CommonLabel="AbstractQuery" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Interface" Label="AbstractQuery" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///D:/My Documents/Visual Studio Projects/Java2NetPort/Java2NetPort/CriteriaAPI/AbstractQuery.cs&quot; StartLineNumber=8 StartCharacterOffset=4 EndLineNumber=8 EndCharacterOffset=4)" />
+    <Node Id="@10" Category="CodeSchema_Interface" Bounds="51.401336150336,53.7477535023248,84.3033333333333,25" CodeSchemaProperty_IsPublic="True" CommonLabel="IJoin" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Interface" Label="IJoin" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///D:/My Documents/Visual Studio Projects/Java2NetPort/Java2NetPort/CriteriaAPI/Interfaces/IJoin.cs&quot; StartLineNumber=8 StartCharacterOffset=4 EndLineNumber=8 EndCharacterOffset=4)" />
+    <Node Id="@11" Category="CodeSchema_Interface" Bounds="112.369583363626,273.747753502325,86.7533333333333,25" CodeSchemaProperty_IsPublic="True" CommonLabel="IPath" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Interface" Label="IPath" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///D:/My Documents/Visual Studio Projects/Java2NetPort/Java2NetPort/CriteriaAPI/Interfaces/IPath.cs&quot; StartLineNumber=8 StartCharacterOffset=4 EndLineNumber=8 EndCharacterOffset=4)" />
+    <Node Id="@12" Category="CodeSchema_Interface" Bounds="262.31175181744,163.747753502325,109.833333333333,25" CodeSchemaProperty_IsPublic="True" CommonLabel="IPredicate" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Interface" Label="IPredicate" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///D:/My Documents/Visual Studio Projects/Java2NetPort/Java2NetPort/CriteriaAPI/Interfaces/IPredicate.cs&quot; StartLineNumber=9 StartCharacterOffset=4 EndLineNumber=9 EndCharacterOffset=4)" />
+    <Node Id="@14" Category="CodeSchema_Interface" Bounds="182.515426994927,-1.2522464976754,87.5566666666666,25" CodeSchemaProperty_IsPublic="True" CommonLabel="IRoot" DelayedChildNodesState="Fetched" DelayedCrossGroupLinksState="Fetched" FetchedChildrenCount="5" Group="Collapsed" Icon="CodeSchema_Interface" Label="IRoot" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///D:/My Documents/Visual Studio Projects/Java2NetPort/Java2NetPort/CriteriaAPI/Interfaces/IRoot.cs&quot; StartLineNumber=7 StartCharacterOffset=4 EndLineNumber=7 EndCharacterOffset=4)" UseManualLocation="True" />
+    <Node Id="@15" Category="CodeSchema_Interface" Bounds="237.652380355689,383.747753502325,108.703333333333,25" CodeSchemaProperty_IsPublic="True" CommonLabel="ISelection" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Interface" Label="ISelection" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///D:/My Documents/Visual Studio Projects/Java2NetPort/Java2NetPort/CriteriaAPI/Interfaces/ISelection.cs&quot; StartLineNumber=8 StartCharacterOffset=4 EndLineNumber=8 EndCharacterOffset=4)" />
+    <Node Id="@16" Category="CodeSchema_Interface" Bounds="286.187980048935,218.747753502325,131.716666666667,25" CodeSchemaProperty_IsPublic="True" CommonLabel="ISqlExpression" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Interface" Label="ISqlExpression" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///D:/My Documents/Visual Studio Projects/Java2NetPort/Java2NetPort/CriteriaAPI/Interfaces/ISqlExpression.cs&quot; StartLineNumber=8 StartCharacterOffset=4 EndLineNumber=8 EndCharacterOffset=4)" />
+    <Node Id="@17" Category="CodeSchema_Class" Bounds="108.761520262957,-56.2522464976753,103.01,25" CodeSchemaProperty_IsPublic="True" CommonLabel="JoinItem" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="JoinItem" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///D:/My Documents/Visual Studio Projects/Java2NetPort/Java2NetPort/CriteriaAPI/Join.cs&quot; StartLineNumber=8 StartCharacterOffset=4 EndLineNumber=8 EndCharacterOffset=4)" />
+    <Node Id="@18" Category="CodeSchema_Enum" Bounds="107.678947022355,383.747753502325,99.9733333333334,25" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsPublic="True" CommonLabel="JoinType" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Enum" Label="JoinType" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///D:/My Documents/Visual Studio Projects/Java2NetPort/Java2NetPort/CriteriaAPI/JoinType.cs&quot; StartLineNumber=8 StartCharacterOffset=4 EndLineNumber=8 EndCharacterOffset=4)" />
+    <Node Id="@19" Category="CodeSchema_Class" Bounds="165.704769483669,53.7477535023247,82.65,25" CodeSchemaProperty_IsPublic="True" CommonLabel="Path" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="Path" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///D:/My Documents/Visual Studio Projects/Java2NetPort/Java2NetPort/CriteriaAPI/Path.cs&quot; StartLineNumber=8 StartCharacterOffset=4 EndLineNumber=8 EndCharacterOffset=4)" />
+    <Node Id="@20" Category="CodeSchema_Class" Bounds="241.771620262957,-56.2522464976752,105.73,25" CodeSchemaProperty_IsPublic="True" CommonLabel="Predicate" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="Predicate" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///D:/My Documents/Visual Studio Projects/Java2NetPort/Java2NetPort/CriteriaAPI/Predicate.cs&quot; StartLineNumber=8 StartCharacterOffset=4 EndLineNumber=8 EndCharacterOffset=4)" />
+    <Node Id="@21" Category="CodeSchema_Enum" Bounds="242.567563030725,438.747753502325,149.646666666667,25" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsPublic="True" CommonLabel="PredicateOperators" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Enum" Label="PredicateOperators" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///D:/My Documents/Visual Studio Projects/Java2NetPort/Java2NetPort/CriteriaAPI/PredicateOperators.cs&quot; StartLineNumber=8 StartCharacterOffset=4 EndLineNumber=8 EndCharacterOffset=4)" />
+    <Node Id="@22" Category="CodeSchema_Class" Bounds="202.12982914089,-111.252246497675,83.4533333333332,25" CodeSchemaProperty_IsInternal="True" CommonLabel="Root" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="Root" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///D:/My Documents/Visual Studio Projects/Java2NetPort/Java2NetPort/CriteriaAPI/Root.cs&quot; StartLineNumber=9 StartCharacterOffset=4 EndLineNumber=9 EndCharacterOffset=4)" />
+    <Node Id="@23" Category="CodeSchema_Class" Bounds="187.558944493601,328.747753502325,104.6,25" CodeSchemaProperty_IsPublic="True" CommonLabel="Selection" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="Selection" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///D:/My Documents/Visual Studio Projects/Java2NetPort/Java2NetPort/CriteriaAPI/Selection.cs&quot; StartLineNumber=8 StartCharacterOffset=4 EndLineNumber=8 EndCharacterOffset=4)" />
+    <Node Id="@24" Category="CodeSchema_Class" Bounds="278.354869483669,53.7477535023246,106.79,25" CodeSchemaProperty_IsPublic="True" CommonLabel="Subquery" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="Subquery" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///D:/My Documents/Visual Studio Projects/Java2NetPort/Java2NetPort/CriteriaAPI/Subquery.cs&quot; StartLineNumber=8 StartCharacterOffset=4 EndLineNumber=8 EndCharacterOffset=4)" />
+    <Node Id="@26" Category="CodeSchema_Method" Bounds="127.630178194997,-21.2562503095566,52.8133333333333,23.2766666666667" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsVirtual="True" DelayedCrossGroupLinksState="Fetched" Label="Get" UseManualLocation="True" />
+    <Node Id="@27" Category="CodeSchema_Method" Bounds="210.44351152833,-21.2562503095566,55.2,23.2766666666667" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsVirtual="True" DelayedCrossGroupLinksState="Fetched" Label="Join" UseManualLocation="True" />
+    <Node Id="@28" Category="CodeSchema_Property" Bounds="240.189239649045,-76.2562503095566,83.3590614540482,25" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsVirtual="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="From" UseManualLocation="True" />
+    <Node Id="@29" Category="CodeSchema_Property" Bounds="127.630178194997,-76.2562503095566,82.5590614540482,25" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsVirtual="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="Joins" UseManualLocation="True" />
+    <Node Id="@3" Category="CodeSchema_Class" Bounds="125.441134342346,-221.252246497675,129.28,25" CodeSchemaProperty_IsInternal="True" CommonLabel="CriteriaBuilder" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="CriteriaBuilder" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///D:/My Documents/Visual Studio Projects/Java2NetPort/Java2NetPort/CriteriaAPI/CriteriaBuilder.cs&quot; StartLineNumber=8 StartCharacterOffset=4 EndLineNumber=8 EndCharacterOffset=4)" />
+    <Node Id="@30" Category="CodeSchema_Method" Bounds="127.630178194997,32.02041635711,81.79,23.2766666666667" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsVirtual="True" DelayedCrossGroupLinksState="Fetched" Label="Subquery" UseManualLocation="True" />
+    <Node Id="@4" Category="CodeSchema_Class" Bounds="191.199528816591,-166.252246497675,124.953333333333,25" CodeSchemaProperty_IsInternal="True" CommonLabel="CriteriaQuery" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="CriteriaQuery" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///D:/My Documents/Visual Studio Projects/Java2NetPort/Java2NetPort/CriteriaAPI/CriteriaQuery.cs&quot; StartLineNumber=8 StartCharacterOffset=4 EndLineNumber=8 EndCharacterOffset=4)" />
+    <Node Id="@5" Category="CodeSchema_Class" Bounds="119.42165181744,163.747753502325,112.89,25" CodeSchemaProperty_IsPublic="True" CommonLabel="Expression" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="Expression" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///D:/My Documents/Visual Studio Projects/Java2NetPort/Java2NetPort/CriteriaAPI/Expression.cs&quot; StartLineNumber=8 StartCharacterOffset=4 EndLineNumber=8 EndCharacterOffset=4)" />
+    <Node Id="@6" Category="CodeSchema_Class" Bounds="303.505710310745,108.747753502325,112.66,25" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsPublic="True" CommonLabel="Extensions" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="Extensions" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///D:/My Documents/Visual Studio Projects/Java2NetPort/Java2NetPort/CriteriaAPI/Extensions.cs&quot; StartLineNumber=8 StartCharacterOffset=4 EndLineNumber=8 EndCharacterOffset=4)" />
+    <Node Id="@7" Category="CodeSchema_Interface" Bounds="38.7463958075566,-111.252246497675,133.383333333333,25" CodeSchemaProperty_IsPublic="True" CommonLabel="ICriteriaBuilder" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Interface" Label="ICriteriaBuilder" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///D:/My Documents/Visual Studio Projects/Java2NetPort/Java2NetPort/CriteriaAPI/Interfaces/ICriteriaBuilder.cs&quot; StartLineNumber=8 StartCharacterOffset=4 EndLineNumber=8 EndCharacterOffset=4)" />
+    <Node Id="@8" Category="CodeSchema_Interface" Bounds="144.448943644079,108.747753502325,129.056666666667,25" CodeSchemaProperty_IsPublic="True" CommonLabel="ICriteriaQuery" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Interface" Label="ICriteriaQuery" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///D:/My Documents/Visual Studio Projects/Java2NetPort/Java2NetPort/CriteriaAPI/Interfaces/ICriteriaQuery.cs&quot; StartLineNumber=8 StartCharacterOffset=4 EndLineNumber=8 EndCharacterOffset=4)" />
+    <Node Id="@9" Category="CodeSchema_Interface" Bounds="139.194546715601,218.747753502325,116.993333333333,25" CodeSchemaProperty_IsPublic="True" CommonLabel="IExpression" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Interface" Label="IExpression" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///D:/My Documents/Visual Studio Projects/Java2NetPort/Java2NetPort/CriteriaAPI/Interfaces/IExpression.cs&quot; StartLineNumber=8 StartCharacterOffset=4 EndLineNumber=8 EndCharacterOffset=4)" />
+  </Nodes>
+  <Links>
+    <Link Source="@10" Target="@11" Category="CodeSchema_ReturnTypeLink" Bounds="95.3410110473633,78.7477569580078,51.6241683959961,186.70915222168" IsSourceVirtualized="True" Weight="1" />
+    <Link Source="@10" Target="@9" Category="References" Bounds="96.0910720825195,78.7477569580078,63.3662948608398,136.524749755859" IsSourceVirtualized="True" Weight="1" />
+    <Link Source="@12" Target="@16" Category="Implements" Bounds="325.141576415507,188.747753502325,13.9101924564239,21.973200486159" Weight="1" />
+    <Link Source="@12" Target="@21" Category="CodeSchema_ReturnTypeLink" Bounds="281.581268310547,188.747756958008,74.9086303710938,242.663558959961" IsSourceVirtualized="True" Weight="1" />
+    <Link Source="@12" Target="@9" Category="Implements" Bounds="233.489066056587,188.747753502325,56.5718058134658,26.0291288983195" Weight="1" />
+    <Link Source="@14" Target="@26" Category="Contains" FetchingParent="@14" />
+    <Link Source="@14" Target="@27" Category="Contains" FetchingParent="@14" />
+    <Link Source="@14" Target="@28" Category="Contains" FetchingParent="@14" />
+    <Link Source="@14" Target="@29" Category="Contains" FetchingParent="@14" />
+    <Link Source="@14" Target="@30" Category="Contains" FetchingParent="@14" />
+    <Link Source="@17" Target="@10" Category="Implements" Bounds="106.060480671138,-31.2522464976753,46.6249580638698,76.8771544864288" Weight="1" />
+    <Link Source="@17" Target="@11" Category="References" Bounds="117.502731323242,-31.2522468566895,40.4851684570313,297.031116485596" IsSourceVirtualized="True" Weight="5">
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@17" Target="@14" Category="References" Bounds="175.272711186889,-31.2522464976753,29.0996976201704,24.2397435895614" IsSourceVirtualized="True" Weight="5">
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@17" Target="@18" Category="References" Bounds="104.998031616211,-31.2522468566895,52.9898681640625,407.379169464111" IsSourceVirtualized="True" Weight="5">
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@17" Target="@19" Category="CodeSchema_Calls" Bounds="163.019866943359,-31.2522468566895,31.3380432128906,77.3850860595703" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="1" />
+    <Link Source="@17" Target="@9" Category="References" Bounds="115.377449035645,-31.2522468566895,42.6104507446289,246.874530792236" IsSourceVirtualized="True" Weight="1" />
+    <Link Source="@19" Target="@11" Category="Implements" Bounds="117.502731323242,78.7477569580078,61.4437866210938,186.58610534668" Weight="1" />
+    <Link Source="@20" Target="@12" Category="Implements" Bounds="276.695343017578,-31.2522468566895,28.8735046386719,186.714542388916" Weight="1" />
+    <Link Source="@20" Target="@16" Category="Implements" Bounds="307.276672363281,-31.2522468566895,119.023223876953,242.126056671143" Weight="1" />
+    <Link Source="@20" Target="@21" Category="References" Bounds="307.276672363281,-31.2522468566895,119.913330078125,464.07466506958" IsSourceVirtualized="True" Weight="5">
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@20" Target="@5" Category="InheritsFrom" Bounds="226.585662841797,-31.2522468566895,65.5614013671875,192.258930206299" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="2">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@20" Target="@6" Category="CodeSchema_Calls" Bounds="309.036193847656,-31.2522468566895,86.2428588867188,132.433528900146" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="2" />
+    <Link Source="@20" Target="@9" Category="Implements" Bounds="215.331497192383,-31.2522468566895,76.8155670166016,242.945667266846" Weight="1" />
+    <Link Source="@22" Target="@10" Category="References" Bounds="116.583824157715,-86.2522430419922,122.83145904541,134.447883605957" IsSourceVirtualized="True" Weight="6">
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@22" Target="@14" Category="References" Bounds="229.787336682005,-86.2522464976753,12.073393730177,75.6188187133503" IsSourceVirtualized="True" Weight="2">
+      <Category Ref="Implements" />
+    </Link>
+    <Link Source="@22" Target="@15" Category="CodeSchema_ReturnTypeLink" Bounds="238.249420166016,-86.2522430419922,59.991455078125,461.211044311523" IsSourceVirtualized="True" Weight="1" />
+    <Link Source="@22" Target="@17" Category="CodeSchema_Calls" Bounds="186.782723338335,-86.2522464976753,38.0760507545404,25.0530374946976" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="1" />
+    <Link Source="@22" Target="@18" Category="References" Bounds="104.998031616211,-86.2522430419922,134.417251586914,462.379165649414" IsSourceVirtualized="True" Weight="1" />
+    <Link Source="@22" Target="@23" Category="CodeSchema_Calls" Bounds="238.249420166016,-86.2522430419922,40.2164611816406,406.173965454102" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="1" />
+    <Link Source="@22" Target="@24" Category="CodeSchema_ReturnTypeLink" Bounds="238.249420166016,-86.2522430419922,76.0992431640625,133.33715057373" IsSourceVirtualized="True" Weight="1" />
+    <Link Source="@23" Target="@15" Category="Implements" Bounds="251.710104159227,353.747753502325,21.9065777884387,23.105943222563" IsSourceVirtualized="True" Weight="2">
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@24" Target="@12" Category="References" Bounds="294.376556396484,78.7477569580078,22.5512084960938,76.6407165527344" IsSourceVirtualized="True" Weight="1" />
+    <Link Source="@24" Target="@14" Category="CodeSchema_ReturnTypeLink" Bounds="267.201202392578,27.0720691680908,58.8280639648438,26.6756839752197" IsSourceVirtualized="True" Weight="1" />
+    <Link Source="@24" Target="@15" Category="References" Bounds="258.620269775391,78.7477569580078,63.3013610839844,296.211044311523" IsSourceVirtualized="True" Weight="5" />
+    <Link Source="@24" Target="@8" Category="Implements" Bounds="245.54992588464,78.7477535023246,58.2970816657887,26.1160852447991" IsSourceVirtualized="True" Weight="6">
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@24" Target="@9" Category="References" Bounds="213.957489013672,78.7477569580078,107.964141845703,133.101058959961" IsSourceVirtualized="True" Weight="1" />
+    <Link Source="@26" Target="@15" Category="CodeSchema_ReturnTypeLink" Weight="1" />
+    <Link Source="@27" Target="@10" Category="CodeSchema_ReturnTypeLink" Weight="1" />
+    <Link Source="@27" Target="@14" Category="References" Bounds="238.043518066406,2.02041625976563,12.322265625,86.7766647338867" Weight="1" />
+    <Link Source="@27" Target="@18" Category="References" Weight="1" />
+    <Link Source="@29" Target="@10" Category="References" IsSourceVirtualized="True" Weight="1" />
+    <Link Source="@3" Target="@4" Category="CodeSchema_Calls" Bounds="204.534557328917,-196.252246497675,27.8808865595641,24.1127020442397" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="1" />
+    <Link Source="@3" Target="@5" Category="CodeSchema_Calls" Bounds="141.566879272461,-196.252243041992,76.8531341552734,354.135192871094" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="2" />
+    <Link Source="@3" Target="@7" Category="Implements" Bounds="120.850036106764,-196.252246497675,59.6125673414764,77.4709880305277" Weight="1" />
+    <Link Source="@3" Target="@8" Category="CodeSchema_ReturnTypeLink" Bounds="159.605224609375,-196.252243041992,58.8147888183594,300.19450378418" IsSourceVirtualized="True" Weight="1" />
+    <Link Source="@3" Target="@9" Category="References" Bounds="190.261566162109,-196.252243041992,87.7684326171875,408.101058959961" IsSourceVirtualized="True" Weight="6">
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@30" Target="@24" Category="CodeSchema_ReturnTypeLink" Weight="1" />
+    <Link Source="@4" Target="@12" Category="References" Bounds="268.550384521484,-141.252243041992,89.0854187011719,297.138214111328" IsSourceVirtualized="True" Weight="1" />
+    <Link Source="@4" Target="@14" Category="References" IsSourceVirtualized="True" Weight="6">
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@4" Target="@15" Category="References" Bounds="268.550384521484,-141.252243041992,159.008483886719,518.49299621582" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="18">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@4" Target="@22" Category="CodeSchema_Calls" Bounds="247.670091579838,-141.252246497675,3.77435397712438,21.1401036281716" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="1" />
+    <Link Source="@4" Target="@23" Category="CodeSchema_Calls" Bounds="244.113906860352,-141.252243041992,113.521896362305,461.173965454102" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="1" />
+    <Link Source="@4" Target="@28" Category="CodeSchema_Calls" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="1" />
+    <Link Source="@4" Target="@8" Category="Implements" Bounds="230.258346557617,-141.252243041992,127.377456665039,243.702919006348" IsSourceVirtualized="True" Weight="6">
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@4" Target="@9" Category="References" Bounds="213.957489013672,-141.252243041992,143.678314208984,353.101058959961" IsSourceVirtualized="True" Weight="2" />
+    <Link Source="@5" Target="@23" Category="InheritsFrom" Bounds="210.801422119141,188.747756958008,50.390380859375,130.683609008789" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="4">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@5" Target="@9" Category="Implements" Bounds="180.82677944581,188.747753502325,8.40038972196533,21.1697922698561" Weight="1" />
+    <Link Source="@6" Target="@21" Category="References" Bounds="339.265563964844,133.747756958008,88.7732543945313,299.074661254883" IsSourceVirtualized="True" Weight="1" />
+    <Link Source="@7" Target="@8" Category="CodeSchema_ReturnTypeLink" Bounds="103.20735168457,-86.2522430419922,77.5035705566406,190.243103027344" IsSourceVirtualized="True" Weight="1" />
+    <Link Source="@7" Target="@9" Category="References" Bounds="103.032081604004,-86.2522430419922,52.0653305053711,301.905822753906" IsSourceVirtualized="True" Weight="6">
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@8" Target="@12" Category="References" Bounds="233.579809138024,133.747753502325,51.0223251142904,25.9233098351431" IsSourceVirtualized="True" Weight="1" />
+    <Link Source="@8" Target="@14" Category="CodeSchema_ReturnTypeLink" Bounds="228.099182128906,31.5162487030029,30.3897705078125,77.2315082550049" IsSourceVirtualized="True" Weight="1" />
+    <Link Source="@8" Target="@15" Category="References" Bounds="215.933029174805,133.747756958008,80.2817230224609,241.063125610352" IsSourceVirtualized="True" Weight="2" />
+    <Link Source="@8" Target="@9" Category="References" Bounds="216.583770751953,133.747756958008,25.862060546875,78.7026977539063" IsSourceVirtualized="True" Weight="1" />
+  </Links>
+  <Categories>
+    <Category Id="CodeSchema_Calls" Label="Calls" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Called By" OutgoingActionLabel="Calls" />
+    <Category Id="CodeSchema_Class" Label="Class" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="Classes" />
+    <Category Id="CodeSchema_Enum" Label="Enum" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Enum" NavigationActionLabel="Enums" />
+    <Category Id="CodeSchema_Interface" Label="Interface" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Interface" NavigationActionLabel="Interfaces" />
+    <Category Id="CodeSchema_Member" Label="Member" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Field" NavigationActionLabel="Members" />
+    <Category Id="CodeSchema_Method" Label="Method" BasedOn="CodeSchema_Member" CanBeDataDriven="True" DefaultAction="Link:Forward:CodeSchema_Calls" Icon="CodeSchema_Method" NavigationActionLabel="Methods" />
+    <Category Id="CodeSchema_Property" Label="Property" BasedOn="CodeSchema_Member" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Property" NavigationActionLabel="Properties" />
+    <Category Id="CodeSchema_ReturnTypeLink" Label="Return" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Return types" OutgoingActionLabel="Return types" />
+    <Category Id="CodeSchema_Type" Label="Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="Types" />
+    <Category Id="Contains" Label="Contains" Description="Whether the source of the link contains the target object" CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Contained By" IsContainment="True" OutgoingActionLabel="Contains" />
+    <Category Id="Implements" Label="Implements" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Implemented by" OutgoingActionLabel="Implements" />
+    <Category Id="InheritsFrom" Label="Inherits From" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Inherited By" OutgoingActionLabel="Inherits From" />
+    <Category Id="References" Label="References" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Referenced By" OutgoingActionLabel="References" />
+  </Categories>
+  <Properties>
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsAbstract" Label="Is Abstract" Description="Flag to indicate member is 'Abstract' does not provide a full implementation" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsFinal" Label="Is Final" Description="Flag to indicate the member is 'Final' and cannot be derived from" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsInternal" Label="Is Internal" Description="Flag to indicate the method is 'Internal'" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsPublic" Label="Is Public" Description="Flag to indicate the scope is Public" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsVirtual" Label="Is Virtual" Description="Flag to indicate the method can be overridden" DataType="System.Boolean" />
+    <Property Id="CommonLabel" DataType="System.String" />
+    <Property Id="DataVirtualized" Label="Data Virtualized" Description="If true, the graph can contain nodes and links that represent data for virtualized nodes/links (i.e. not actually created in the graph)." DataType="System.Boolean" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="DelayedChildNodesState" Label="Delayed Child Nodes State" Description="Unspecified if the delayed child nodes state is not specified. NotFetched if the group contains child nodes that are not fetched into the graph yet. Fetched if the group has all its delayed child nodes already fetched." DataType="Microsoft.VisualStudio.GraphModel.DelayedDataState" />
+    <Property Id="DelayedCrossGroupLinksState" Label="Delayed Cross-Group Links State" Description="Unspecified if the delayed cross-group links state is not specified. NotFetched if delayed cross-group links on this node are not fetched into the graph yet. Fetched if all delayed cross-group links have already fetched." DataType="Microsoft.VisualStudio.GraphModel.DelayedDataState" />
+    <Property Id="Expression" DataType="System.String" />
+    <Property Id="FetchedChildrenCount" DataType="System.Int32" />
+    <Property Id="FetchingParent" DataType="Microsoft.VisualStudio.GraphModel.GraphNodeId" />
+    <Property Id="Group" Label="Group" Description="Display the node as a group" DataType="Microsoft.VisualStudio.GraphModel.GraphGroupStyle" />
+    <Property Id="GroupLabel" DataType="System.String" />
+    <Property Id="Icon" Label="Icon" Description="Icon" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="IsEnabled" DataType="System.Boolean" />
+    <Property Id="IsSourceVirtualized" Label="Link Source Virtualized" Description="If true, the link source end contains data for virtualized nodes/links (i.e. not actually created in the graph)." DataType="System.Boolean" />
+    <Property Id="IsTargetVirtualized" Label="Link Target Virtualized" Description="If true, the link target end contains data for virtualized nodes/links (i.e. not actually created in the graph)." DataType="System.Boolean" />
+    <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
+    <Property Id="Language" Label="Language" Description="Language" DataType="System.String" />
+    <Property Id="Layout" DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="SourceLocation" Label="Start Line Number" DataType="Microsoft.VisualStudio.GraphModel.CodeSchema.SourceLocation" />
+    <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="UseManualLocation" DataType="System.Boolean" />
+    <Property Id="Value" DataType="System.String" />
+    <Property Id="ValueLabel" DataType="System.String" />
+    <Property Id="Visibility" Label="Visibility" Description="Defines whether a node in the graph is visible or not" DataType="System.Windows.Visibility" />
+    <Property Id="Weight" Label="Weight" Description="Weight" DataType="System.Double" />
+  </Properties>
+  <QualifiedNames>
+    <Name Id="Assembly" Label="Assembly" ValueType="Uri" />
+    <Name Id="Member" Label="Member" ValueType="System.Object" />
+    <Name Id="Name" Label="Name" ValueType="System.String" />
+    <Name Id="Namespace" Label="Namespace" ValueType="System.String" />
+    <Name Id="OverloadingParameters" Label="Parameter" ValueType="Microsoft.VisualStudio.GraphModel.GraphNodeIdCollection" Formatter="NameValueNoEscape" />
+    <Name Id="Type" Label="Type" ValueType="System.Object" />
+  </QualifiedNames>
+  <IdentifierAliases>
+    <Alias n="1" Uri="Assembly=$(b68a2196-0e11-4daf-82bd-6c4f7c5f51ae.OutputPathUri)" />
+    <Alias n="2" Id="Namespace=Java2NetPort.CriteriaAPI" />
+    <Alias n="3" Id="(@1 @2 Type=CriteriaBuilder)" />
+    <Alias n="4" Id="(@1 @2 Type=CriteriaQuery)" />
+    <Alias n="5" Id="(@1 @2 Type=Expression)" />
+    <Alias n="6" Id="(@1 @2 Type=Extensions)" />
+    <Alias n="7" Id="(@1 @2 Type=ICriteriaBuilder)" />
+    <Alias n="8" Id="(@1 @2 Type=ICriteriaQuery)" />
+    <Alias n="9" Id="(@1 @2 Type=IExpression)" />
+    <Alias n="10" Id="(@1 @2 Type=IJoin)" />
+    <Alias n="11" Id="(@1 @2 Type=IPath)" />
+    <Alias n="12" Id="(@1 @2 Type=IPredicate)" />
+    <Alias n="13" Id="Type=IRoot" />
+    <Alias n="14" Id="(@1 @2 @13)" />
+    <Alias n="15" Id="(@1 @2 Type=ISelection)" />
+    <Alias n="16" Id="(@1 Namespace=Java2NetPort.CriteriaAPI.Interfaces Type=ISqlExpression)" />
+    <Alias n="17" Id="(@1 @2 Type=JoinItem)" />
+    <Alias n="18" Id="(@1 @2 Type=JoinType)" />
+    <Alias n="19" Id="(@1 @2 Type=Path)" />
+    <Alias n="20" Id="(@1 @2 Type=Predicate)" />
+    <Alias n="21" Id="(@1 @2 Type=PredicateOperators)" />
+    <Alias n="22" Id="(@1 @2 Type=Root)" />
+    <Alias n="23" Id="(@1 @2 Type=Selection)" />
+    <Alias n="24" Id="(@1 @2 Type=Subquery)" />
+    <Alias n="25" Uri="Assembly=$(FxReferenceAssembliesUri)/.NETFramework/v4.5.1/mscorlib.dll" />
+    <Alias n="26" Id="(@1 @2 @13 Member=(Name=Get OverloadingParameters=[(@25 Namespace=System Type=String)]))" />
+    <Alias n="27" Id="(@1 @2 @13 Member=(Name=Join OverloadingParameters=[@14,@18]))" />
+    <Alias n="28" Id="(@1 @2 @13 Member=From)" />
+    <Alias n="29" Id="(@1 @2 @13 Member=Joins)" />
+    <Alias n="30" Id="(@1 @2 @13 Member=Subquery)" />
+  </IdentifierAliases>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="Results" ValueLabel="True">
+      <Condition Expression="HasCategory('QueryResult')" />
+      <Setter Property="Background" Value="#FFBCFFBE" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Assembly" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Assembly')" />
+      <Setter Property="Background" Value="#FF094167" />
+      <Setter Property="Stroke" Value="#FF094167" />
+      <Setter Property="Icon" Value="CodeSchema_Assembly" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Namespace" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Namespace')" />
+      <Setter Property="Background" Value="#FF0E619A" />
+      <Setter Property="Stroke" Value="#FF0E619A" />
+      <Setter Property="Icon" Value="CodeSchema_Namespace" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Interface" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Interface')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Interface" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Struct" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Struct')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Struct" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Enumeration" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Enum')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Enum" />
+      <Setter Property="LayoutSettings" Value="List" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Delegate" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Delegate')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Delegate" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Class" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Type')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Class" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Property" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Property')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Property" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Method" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Method') Or HasCategory('CodeSchema_CallStackUnresolvedMethod')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Method" />
+      <Setter Property="LayoutSettings" Value="List" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Event" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Event')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Event" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Field" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Field')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Field" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Out Parameter" ValueLabel="True">
+      <Condition Expression="CodeSchemaProperty_IsOut = 'True'" />
+      <Setter Property="Icon" Value="CodeSchema_OutParameter" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Parameter" ValueLabel="True">
+      <Condition Expression="HasCategory('CodeSchema_Parameter')" />
+      <Setter Property="Icon" Value="CodeSchema_Parameter" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Local Variable" ValueLabel="True">
+      <Condition Expression="HasCategory('CodeSchema_LocalExpression')" />
+      <Setter Property="Icon" Value="CodeSchema_LocalExpression" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Externals" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Externals')" />
+      <Setter Property="Background" Value="#FF424242" />
+      <Setter Property="Stroke" Value="#FF424242" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Inherits From" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('InheritsFrom') And Target.HasCategory('CodeSchema_Class')" />
+      <Setter Property="TargetDecorator" Value="OpenArrow" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Implements" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('Implements') And Target.HasCategory('CodeSchema_Interface')" />
+      <Setter Property="TargetDecorator" Value="OpenArrow" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Field Read" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="Target.HasCategory('CodeSchema_Field') And HasCategory('CodeSchema_FieldRead')" />
+      <Setter Property="StrokeDashArray" Value="2 2" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Comment Link" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="Source.HasCategory('Comment')" />
+      <Setter Property="Stroke" Value="#FFE5C365" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Cursor Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="IsCursorLocation" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Disabled Breakpoint Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="DisabledBreakpointCount" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Enabled Breakpoint Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="EnabledBreakpointCount" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Instruction Pointer Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="IsInstructionPointerLocation" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Current Callstack Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="IsCurrentCallstackFrame" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+  </Styles>
+  <Paths>
+    <Path Id="b68a2196-0e11-4daf-82bd-6c4f7c5f51ae.OutputPathUri" Value="file:///D:/My Documents/Visual Studio Projects/Java2NetPort/Java2NetPort/bin/Debug/Java2NetPort.dll" />
+    <Path Id="FxReferenceAssembliesUri" Value="file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework" />
+  </Paths>
+</DirectedGraph>

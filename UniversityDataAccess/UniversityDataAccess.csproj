@@ -49,17 +49,9 @@
     <Compile Include="dbcontext.cs" />
     <Compile Include="Faculty.cs" />
     <Compile Include="Log.cs" />
-    <Compile Include="Migrations\201312122111490_1.cs" />
-    <Compile Include="Migrations\201312122111490_1.Designer.cs">
-      <DependentUpon>201312122111490_1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201312221426438_m1.cs" />
-    <Compile Include="Migrations\201312221426438_m1.Designer.cs">
-      <DependentUpon>201312221426438_m1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201312281349333_3.cs" />
-    <Compile Include="Migrations\201312281349333_3.Designer.cs">
-      <DependentUpon>201312281349333_3.cs</DependentUpon>
+    <Compile Include="Migrations\201403111408309_addes seq numb.cs" />
+    <Compile Include="Migrations\201403111408309_addes seq numb.Designer.cs">
+      <DependentUpon>201403111408309_addes seq numb.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -70,14 +62,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201312122111490_1.resx">
-      <DependentUpon>201312122111490_1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201312221426438_m1.resx">
-      <DependentUpon>201312221426438_m1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201312281349333_3.resx">
-      <DependentUpon>201312281349333_3.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201403111408309_addes seq numb.resx">
+      <DependentUpon>201403111408309_addes seq numb.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
